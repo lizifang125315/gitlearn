@@ -29,4 +29,7 @@ while wt<201:
             lis[lis_index] = f
     wt = wt+1
 data["wec_tag"] = lis
+
 data.to_csv(r"D:\CRRC_WorkDocument\pythonsupport\task4\hxmj_tag_result.csv")
+
+print("test")
